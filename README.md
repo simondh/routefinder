@@ -46,6 +46,13 @@ The routes can also be edited using Django ASdmin at `http://127.0.0.1:8000/admi
     Missing From or To query params eg ?from:1&to=2%
      hewits2 ~ $
 
+## Comments
+
+Djangorestframework would have been good. Although overkill for this small
+function, it would be useful to have the API documentation.
+
+## Running
+
 
 ## Contact
 Simon Hewitt   
