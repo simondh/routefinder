@@ -53,6 +53,12 @@ function, it would be useful to have the API documentation.
 
 ## Running
 
+As the DB and all components are included, clone from `https://github.com/simondh/routefinder`
+and from a terminal run:
+
+  `$ python manage.py runserver`
+
+Then try `curl` as above
 
 ## Contact
 Simon Hewitt   
