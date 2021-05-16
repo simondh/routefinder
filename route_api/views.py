@@ -17,6 +17,7 @@ def route(request):
     params = request.GET
     if not ('from' in params and 'to' in params):
         return HttpResponseBadRequest("Missing From or To query params eg ?from:1&to=2")
+
     try:
         node_from = int(params['from'])
         node_to = int(params['to'])
@@ -24,5 +25,4 @@ def route(request):
         return HttpResponseBadRequest(f"From or To query params are not integers: {params['from']}:{params['to']}")
 
     best_path = find_best_path(node_from, node_to)
-
     return HttpResponse(json.dumps(best_path))

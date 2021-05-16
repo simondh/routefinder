@@ -7,7 +7,7 @@ from route_api.models import Routes
 
 
 def add_nodes(apps, schema_editor):
-    node_data = [(1,2), (1,6), (2,3), (2,6), (3,4), (4,5), (4,6)]
+    node_data = [(1,2), (1,6), (2,3), (2,6), (3,4), (4,5), (4,6), (10,11), (10,12)]
     for this_node in node_data:
         new_node = Routes(node_a=this_node[0], node_b=this_node[1])
         new_node.save()
