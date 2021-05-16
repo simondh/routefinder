@@ -47,3 +47,7 @@ The routes can also be edited using Django ASdmin at `http://127.0.0.1:8000/admi
      hewits2 ~ $
 
 
+## Contact
+Simon Hewitt   
+simon.d.hewitt@gmail.com   
+07799 381001   
